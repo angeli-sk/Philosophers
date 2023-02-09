@@ -6,7 +6,7 @@ Spoiler alert:
 The philiosphers are all threads and the forks work with mutex locks so you can't grab a fork that's in use.
 
 Usage:
-./philo PHILOSOPHERS_NUMBER TIME_TO_EAT TIME_TO_SLEEP TIME_THEY_WILL_DIE_IF_NO_FOOD
+./philo {PHILOSOPHERS_NUMBER} {TIME_THEY_WILL_DIE_IF_NO_FOOD} {TIME_TO_EAT} {TIME_TO_SLEEP}
 
 Note:
 If you want the philosphers to all have their own color, just find the comments and comment them in. It will be a beautiful rainbow on your screen.
