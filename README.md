@@ -1,6 +1,6 @@
 # Philosophers
 
-It's a project to show the understanding of threads! You have an amount of philosophers around a table and they all have one fork.
+It's a project to show the understanding of multithreading! You have an amount of philosophers around a table and they all have one fork.
 They will need to lend a fork from another, since they're only allowed to eat with two forks. But they need to eat and sleep which al takes certain times that you set at the start of the program as an argument.
 Spoiler alert:
 The philiosphers are all threads and the forks work with mutex locks so you can't grab a fork that's in use.
